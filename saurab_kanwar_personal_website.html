@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Saurab Kanwar — product, business analysis, digital experience and AI conversational assistant professional.">
+<title>Saurab Kanwar | Product & Digital Experience</title>
+<style>
+:root{--black:#000;--white:#fff;--gray:#f3f3f3;--muted:#6b6b6b;--line:#dedede;--lime:#a8f000;--max:1160px}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:86px}body{margin:0;background:#fff;color:#111;font-family:Arial,Helvetica,sans-serif;line-height:1.5}a{color:inherit}button,a{ -webkit-tap-highlight-color:transparent}.wrap{width:min(var(--max),calc(100% - 48px));margin:auto}
+header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.96);border-bottom:1px solid #eee;backdrop-filter:blur(12px)}.nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{font-size:21px;font-weight:800;letter-spacing:-1px;text-decoration:none}.brand span{display:inline-block;background:#000;color:#fff;padding:2px 7px;margin-right:7px}.navlinks{display:flex;gap:25px;align-items:center}.navlinks a{text-decoration:none;font-size:13px;font-weight:700}.navlinks a:hover{opacity:.55}.nav-cta{background:#000;color:#fff!important;padding:12px 17px;border-radius:30px}
+.hero{background:#000;color:#fff;min-height:580px;display:flex;align-items:center;overflow:hidden;position:relative}.hero:after{content:"";position:absolute;width:470px;height:470px;border:1px solid #333;border-radius:50%;right:-80px;top:70px;box-shadow:0 0 0 55px #0a0a0a,0 0 0 110px #050505;pointer-events:none}.hero-inner{padding:85px 0;position:relative;z-index:1;max-width:820px}.eyebrow{text-transform:uppercase;letter-spacing:2.5px;font-size:11px;font-weight:700;color:#aaa}.hero h1{font-size:clamp(46px,7.4vw,91px);line-height:.98;letter-spacing:-5px;margin:25px 0;max-width:850px}.hero h1 span{color:var(--lime)}.hero p{max-width:650px;font-size:18px;color:#d0d0d0}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}.btn{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;font-weight:700;font-size:14px;padding:15px 21px;border-radius:30px;border:1px solid #fff;transition:.2s}.btn.primary{background:var(--lime);border-color:var(--lime);color:#000}.btn:hover{transform:translateY(-2px)}.btn.secondary:hover{background:#fff;color:#000}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);border-bottom:1px solid var(--line)}.stat{padding:27px 20px;border-right:1px solid var(--line)}.stat:first-child{padding-left:0}.stat:last-child{border:0}.stat strong{font-size:30px;letter-spacing:-1.5px;display:block}.stat span{font-size:12px;color:var(--muted)}
+section{padding:92px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:38px}.section-head h2{font-size:clamp(32px,4.3vw,54px);letter-spacing:-2px;line-height:1.05;margin:8px 0 0}.section-head p{max-width:420px;color:var(--muted);margin:0}.kicker{font-size:11px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:#555}
+.about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:70px}.about-copy{font-size:18px;line-height:1.8}.quote{font-size:25px;line-height:1.35;letter-spacing:-.7px;border-left:4px solid var(--lime);padding:4px 0 4px 24px;margin:30px 0}.quote small{display:block;font-size:12px;letter-spacing:1px;text-transform:uppercase;color:var(--muted);margin-top:12px}.skill-list{display:flex;flex-wrap:wrap;gap:9px;margin-top:20px}.pill{background:#f1f1f1;padding:10px 13px;border-radius:3px;font-size:12px;font-weight:700}
+.projects{background:#f5f5f5}.project-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.project{background:#fff;padding:30px;min-height:245px;display:flex;flex-direction:column;justify-content:space-between;border:1px solid #e8e8e8}.project-top{display:flex;justify-content:space-between;gap:10px}.project-no{font-size:12px;color:#888}.project h3{font-size:25px;letter-spacing:-.8px;margin:18px 0 10px}.project p{color:#555;margin:0}.tag{display:inline-block;background:#000;color:#fff;font-size:10px;font-weight:700;padding:6px 9px;text-transform:uppercase;letter-spacing:.8px}.project .metric{font-size:13px;font-weight:800;margin-top:20px}
+.timeline{border-top:1px solid var(--line)}.job{display:grid;grid-template-columns:190px 1fr;gap:36px;padding:30px 0;border-bottom:1px solid var(--line)}.job-date{font-size:12px;color:var(--muted);font-weight:700}.job h3{margin:0;font-size:24px;letter-spacing:-.6px}.job-company{font-size:14px;color:#555;margin:4px 0 15px}.job ul{padding-left:18px;margin:0;color:#444}.job li{margin:7px 0}.job li::marker{color:#777}
+.cap-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.cap{background:#f4f4f4;padding:25px;min-height:160px}.cap .num{font-size:11px;color:#777}.cap h3{font-size:20px;letter-spacing:-.5px;margin:25px 0 8px}.cap p{font-size:13px;color:#555;margin:0}
+.education{background:#000;color:#fff}.education .kicker{color:#aaa}.edu-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.edu{border:1px solid #393939;padding:27px}.edu h3{font-size:20px;margin:0 0 8px}.edu p{margin:0;color:#bbb;font-size:13px}.extras-grid{display:grid;grid-template-columns:1fr 1fr;gap:35px}.extra h3{font-size:21px;margin:0 0 16px}.plain-list{padding-left:18px;color:#555}.plain-list li{margin:8px 0}.contact{background:var(--lime);padding:75px 0}.contact h2{font-size:clamp(38px,6vw,72px);letter-spacing:-3px;line-height:1;margin:15px 0 20px;max-width:760px}.contact p{max-width:600px}.contact-links{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.contact .btn{border-color:#000}.contact .btn.primary{background:#000;color:#fff;border-color:#000}.contact .btn.secondary:hover{background:#000;color:#fff}
+footer{background:#000;color:#fff;padding:25px 0}.footer-inner{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:12px;color:#aaa}.footer-inner a{color:#fff}
+@media(max-width:760px){.wrap{width:min(100% - 32px,var(--max))}.nav{height:64px}.navlinks{gap:13px}.navlinks a:not(.nav-cta){display:none}.hero{min-height:540px}.hero:after{width:250px;height:250px;right:-145px;top:60px;box-shadow:0 0 0 30px #0a0a0a,0 0 0 60px #050505}.hero h1{letter-spacing:-2.7px}.hero p{font-size:16px}.stats{grid-template-columns:repeat(2,1fr)}.stat{padding:20px 12px;border-bottom:1px solid var(--line)}.stat:first-child{padding-left:12px}.stat:nth-child(2){border-right:0}.stat strong{font-size:26px}section{padding:65px 0}.section-head{display:block}.section-head p{margin-top:16px}.about-grid,.project-grid,.edu-grid,.extras-grid{grid-template-columns:1fr;gap:20px}.about-grid{gap:25px}.job{grid-template-columns:1fr;gap:9px}.job h3{font-size:22px}.cap-grid{grid-template-columns:1fr 1fr}.cap{padding:18px}.cap h3{font-size:17px;margin-top:18px}.contact{padding:60px 0}}
+@media(max-width:420px){.cap-grid{grid-template-columns:1fr}.brand{font-size:18px}.nav-cta{padding:10px 13px}.project{padding:22px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#home" aria-label="Saurab Kanwar home"><span>SK</span>SAURAB KANWAR</a>
+    <nav class="navlinks" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#work">Experience</a><a href="#capabilities">Capabilities</a><a class="nav-cta" href="#contact">Let's connect ↗</a>
+    </nav>
+  </div>
+</header>
+<main>
+<section class="hero" id="home">
+  <div class="wrap hero-inner">
+    <div class="eyebrow">Product thinking · Business analysis · Digital experiences</div>
+    <h1>Turning complex problems into <span>better experiences.</span></h1>
+    <p>I'm Saurab Kanwar, a business and product professional working at the intersection of customer problems, digital journeys, operational efficiency and AI.</p>
+    <div class="actions">
+      <a class="btn primary" href="#work">Explore my work ↓</a>
+      <a class="btn secondary" href="mailto:saurab.kanwar99@gmail.com">Get in touch ↗</a>
+    </div>
+  </div>
+</section>
+<div class="wrap">
+  <div class="stats" aria-label="Career highlights">
+    <div class="stat"><strong>11,000+</strong><span>AI assistant conversations / month</span></div>
+    <div class="stat"><strong>504 hrs</strong><span>Monthly operational time saved</span></div>
+    <div class="stat"><strong>+50%</strong><span>MAU uplift for 320+ clients</span></div>
+    <div class="stat"><strong>70%</strong><span>Conversion increase on a digital journey</span></div>
+  </div>
+</div>
+<section id="about">
+  <div class="wrap">
+    <div class="section-head"><div><div class="kicker">01 / About me</div><h2>Start with the problem.<br>Design for the outcome.</h2></div><p>I bring business context, structured problem-solving and cross-functional collaboration together to improve how customers and teams get things done.</p></div>
+    <div class="about-grid">
+      <div class="about-copy">
+        <p>I believe that, regardless of our roles, we are all solving customer problems. I'm motivated by understanding what people need, mapping today's experience, and shaping a better future state through thoughtful product and digital solutions.</p>
+        <p>My experience spans business analysis, product management, new product development, discovery, Agile delivery, stakeholder management and metrics tracking. I enjoy bringing clarity to complex challenges and helping teams move from ambiguity to impact.</p>
+        <div class="quote">“Give me six hours to chop down a tree and I will spend the first four sharpening the axe.”<small>— Abraham Lincoln · A principle I value</small></div>
+      </div>
+      <div>
+        <div class="kicker">What I work across</div>
+        <div class="skill-list">
+          <span class="pill">AI & Conversational Assistants</span><span class="pill">Product Discovery</span><span class="pill">Product Management</span><span class="pill">Business Analysis</span><span class="pill">Digital Journeys</span><span class="pill">New Product Development</span><span class="pill">Agile Delivery</span><span class="pill">Stakeholder Management</span><span class="pill">Metrics & Insights</span><span class="pill">Problem Solving</span>
+        </div>
+        <div class="kicker" style="margin-top:32px">Tools</div>
+        <div class="skill-list"><span class="pill">Jira</span><span class="pill">Confluence</span><span class="pill">Figma</span><span class="pill">Power BI</span><span class="pill">Tableau</span><span class="pill">SQL Developer</span><span class="pill">Postman</span><span class="pill">Swagger</span><span class="pill">Microsoft Visio</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="projects" id="highlights">
+  <div class="wrap">
+    <div class="section-head"><div><div class="kicker">02 / Selected impact</div><h2>Outcomes over output.</h2></div><p>A snapshot of the business and customer outcomes I've contributed to across digital products, automation and operational journeys.</p></div>
+    <div class="project-grid">
+      <article class="project"><div><div class="project-top"><span class="tag">AI · Financial services</span><span class="project-no">01</span></div><h3>AI Conversational Assistant</h3><p>Working on Freya, an AI conversational assistant supporting Personal Investing and Workplace Investing customers.</p></div><div class="metric">11,000+ conversations handled per month</div></article>
+      <article class="project"><div><div class="project-top"><span class="tag">Process improvement</span><span class="project-no">02</span></div><h3>Cash transfers journey</h3><p>Contributed to reimagining the SIPP Non-Origo Cash Transfers journey to improve operational efficiency.</p></div><div class="metric">504 hours saved per month</div></article>
+      <article class="project"><div><div class="project-top"><span class="tag">Digital product</span><span class="project-no">03</span></div><h3>Single Customer View</h3><p>Led an Agile team delivering a holistic view of Workplace and Personal Investing balances for clients.</p></div><div class="metric">50% MAU uplift · 320+ clients</div></article>
+      <article class="project"><div><div class="project-top"><span class="tag">Conversion optimisation</span><span class="project-no">04</span></div><h3>Mutual fund switch journey</h3><p>Led an Agile team to build a new digital switch journey from inception, partnering across business and technology.</p></div><div class="metric">70% increase in conversion · 447 clients</div></article>
+      <article class="project"><div><div class="project-top"><span class="tag">Automation</span><span class="project-no">05</span></div><h3>AI mailbox automation</h3><p>Worked on understanding and classifying emails, extracting identifiers and triggering actions in underlying systems.</p></div><div class="metric">Classification · Information extraction · Auto-actions</div></article>
+      <article class="project"><div><div class="project-top"><span class="tag">Data & analytics</span><span class="project-no">06</span></div><h3>Branch performance dashboards</h3><p>Led end-to-end delivery of business and branch dashboards to help teams make data-informed decisions.</p></div><div class="metric">1,400+ branches · 5 million clients served</div></article>
+    </div>
+    <p style="font-size:12px;color:#666;margin-top:18px">Project summaries are based on experience details in my profile. Some implementation specifics are not publicly disclosed.</p>
+  </div>
+</section>
+<section id="work">
+  <div class="wrap">
+    <div class="section-head"><div><div class="kicker">03 / Experience</div><h2>Building, improving<br>and delivering.</h2></div><p>Experience across financial services, insurance, analytics and technology, working with teams and stakeholders to deliver digital and data-led outcomes.</p></div>
+    <div class="timeline">
+      <article class="job"><div class="job-date">FEB 2024 — PRESENT<br>Gurugram, India</div><div><h3>Manager — ReRegistration & Transfers</h3><div class="job-company">Fidelity International</div><ul><li>Working on Freya, an AI conversational assistant for Personal Investing and Workplace Investing, handling 11,000+ conversations per month.</li><li>Contributed to SIPP cash transfer and reregistration journeys, including reported operational savings of 504 and 400 hours per month respectively.</li><li>Worked on Workplace Investing transfers-out and AI mailbox automation initiatives.</li><li>Manage work and people-related activities for a team of 7.</li></ul></div></article>
+      <article class="job"><div class="job-date">APR 2022 — FEB 2024<br>Gurugram, India</div><div><h3>Lead Business Analyst</h3><div class="job-company">Fidelity International</div><ul><li>Led an Agile team delivering a Single Customer View of Workplace and Personal Investing balances, contributing to 50% MAU uplift for 320+ clients.</li><li>Worked on PlanViewer, used by members of 450+ Workplace Investing schemes.</li><li>Led delivery of a Retirement Master Trust digital journey and supported problem discovery and solutioning.</li><li>Owned backlog activities and created epics, stories and tasks; trained 150+ new hires with average feedback of 4.8/5.</li></ul></div></article>
+      <article class="job"><div class="job-date">FEB 2020 — MAR 2022<br>Gurugram, India</div><div><h3>Senior Business Analyst</h3><div class="job-company">Fidelity International</div><ul><li>Led an Agile team building a mutual fund digital switch journey from inception, increasing conversion by 70% for 447 clients.</li><li>Collaborated with engineering, design, operations, support, client services, sales and business stakeholders.</li><li>Analysed as-is and to-be journeys, demonstrated features and served as functional owner for four API domains.</li></ul></div></article>
+      <article class="job"><div class="job-date">FEB 2019 — FEB 2020<br>Gurugram, India</div><div><h3>Manager, Solution Delivery Group</h3><div class="job-company">IndusInd Bank</div><ul><li>Led end-to-end delivery of Power BI dashboards for 1,400+ branches serving 5 million clients.</li><li>Covered requirements, solution design, implementation, UAT and rollout for business dashboards.</li></ul></div></article>
+      <article class="job"><div class="job-date">APR 2016 — FEB 2019<br>Bengaluru, India</div><div><h3>Consultant → Associate Consultant</h3><div class="job-company">Sapiens</div><ul><li>Delivered Tableau and business intelligence work across sales, policy servicing, claims and operations.</li><li>Worked on business scoping, data modelling, requirements prioritisation and insurance systems integration.</li></ul></div></article>
+      <article class="job"><div class="job-date">MAR 2010 — JUL 2013<br>Bengaluru, India</div><div><h3>System Engineer</h3><div class="job-company">Infosys Limited</div><ul><li>Worked across software development lifecycle activities, project planning, ETL testing and mortgage loan origination data.</li><li>Received client appreciation and employee feedback of 7/7 on projects.</li></ul></div></article>
+    </div>
+  </div>
+</section>
+<section style="background:#f5f5f5" id="capabilities">
+  <div class="wrap">
+    <div class="section-head"><div><div class="kicker">04 / How I add value</div><h2>Clarity from complexity.</h2></div><p>My approach combines customer empathy, structured thinking and delivery discipline to help teams build the right things and make them work.</p></div>
+    <div class="cap-grid">
+      <article class="cap"><div class="num">01 / DISCOVER</div><h3>Find the real problem</h3><p>Problem discovery, stakeholder conversations, as-is analysis and identifying opportunities to improve customer journeys.</p></article>
+      <article class="cap"><div class="num">02 / DEFINE</div><h3>Shape the solution</h3><p>Product solutioning, requirements, wireframes and visual design discussions, epics, user stories and acceptance criteria.</p></article>
+      <article class="cap"><div class="num">03 / ALIGN</div><h3>Bring teams together</h3><p>Cross-functional collaboration, stakeholder communication, demos, meetings and clarity on priorities.</p></article>
+      <article class="cap"><div class="num">04 / DELIVER</div><h3>Make it real</h3><p>Agile delivery, backlog ownership, API domain coordination, UAT and rollout across teams.</p></article>
+      <article class="cap"><div class="num">05 / MEASURE</div><h3>Track outcomes</h3><p>Metrics tracking and data-informed decisions focused on conversion, engagement, efficiency and customer experience.</p></article>
+      <article class="cap"><div class="num">06 / EXPLORE</div><h3>Apply AI thoughtfully</h3><p>Experience working on conversational AI and mailbox automation in a financial services context.</p></article>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="wrap">
+    <div class="section-head"><div><div class="kicker">05 / Beyond work</div><h2>Curious by nature.</h2></div><p>Always learning, sharing ideas and making room for interests beyond the day job.</p></div>
+    <div class="extras-grid">
+      <div class="extra"><h3>Leadership & community</h3><ul class="plain-list"><li>Vice President Education, Toastmasters International (July 2026 — Present)</li><li>Vice President Public Relations, Toastmasters International (March 2025 — June 2026)</li><li>Treasurer, Toastmasters at NMIMS Mumbai (March 2015 — March 2016)</li><li>Winner, Prakalp national-level systems case study challenge at SJMSOM Mumbai</li><li>Winner, CTZ Unplugged quiz competition at Infosys</li></ul></div>
+      <div class="extra"><h3>Education & interests</h3><ul class="plain-list"><li>MBA, Marketing — Narsee Monjee Institute of Management Studies, Mumbai (2014–2016)</li><li>B.Tech, Electronics & Communication Engineering — Jaypee University of Information Technology (2005–2009)</li><li>Chess, watching sports, enhancing skills and reading about product management</li><li>Languages: Punjabi, English and Hindi</li></ul></div>
+    </div>
+  </div>
+</section>
+<section class="education" id="education">
+  <div class="wrap">
+    <div class="section-head"><div><div class="kicker">06 / Foundation</div><h2>Business mindset.<br>Engineering roots.</h2></div><p>Combining a technical foundation with business education to connect customer needs, systems and measurable outcomes.</p></div>
+    <div class="edu-grid">
+      <div class="edu"><h3>MBA, Marketing</h3><p>Narsee Monjee Institute of Management Studies, Mumbai · 2014–2016</p></div>
+      <div class="edu"><h3>B.Tech, Electronics & Communication</h3><p>Jaypee University of Information Technology · 2005–2009</p></div>
+    </div>
+  </div>
+</section>
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="kicker">Have a problem worth solving?</div>
+    <h2>Let's build something meaningful.</h2>
+    <p>I'm always happy to connect with people interested in product thinking, digital experiences, business problem-solving and AI.</p>
+    <div class="contact-links">
+      <a class="btn primary" href="mailto:saurab.kanwar99@gmail.com">Email me ↗</a>
+      <a class="btn secondary" href="https://www.linkedin.com/in/saurab-kanwar-product/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn ↗</a>
+    </div>
+  </div>
+</section>
+</main>
+<footer><div class="wrap footer-inner"><span>© <span id="year">2026</span> Saurab Kanwar</span><span>Made with curiosity. Built around outcomes.</span><a href="#home">Back to top ↑</a></div></footer>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
